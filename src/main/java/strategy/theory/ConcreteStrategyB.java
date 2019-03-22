@@ -1,0 +1,10 @@
+package strategy.theory;
+
+public class ConcreteStrategyB implements Strategy {
+    @Override
+    public void  algorithmInterface() {
+        //相关的业务
+        System.out.println("This is algorithm B ;");
+    }
+
+}
